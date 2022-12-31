@@ -1,0 +1,80 @@
+
+.header{
+    margin: 0%;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 800;
+    font-family:  serif;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    color:  rgb(26, 21, 92);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.books{
+    background-color: rgb(255, 253, 253);
+    width: 100%;
+    overflow-y:hidden;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 35px 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+ .book{
+   width: 25%;
+   height:100%;
+ }
+.card{
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgb(254, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-img{
+    width: 70%;
+    margin-top: 5%;
+    border-radius: 100px;
+    object-fit: cover;
+    height: 200px;
+}
+.btn-container{
+    margin-bottom: 5%;
+}
+.delete-btn{
+   width: 25%;
+   height: 30px;
+   border: none;
+   border-radius: 20px;
+   color: aliceblue;
+   gap: 20px;
+   background-color:rgb(219, 55, 55) ;
+}
+.update-btn{
+    width: 25%;
+   height: 30px;
+   border: none;
+   margin-left:8%;
+   border-radius: 20px;
+   background-color:rgb(8, 161, 85) ;
+   color: rgb(14, 13, 13);
+}
+
+.add-btn{
+    width: 30%;
+    height: 80px;
+    margin: 0% 35%;
+    font-size: 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(26, 21, 92);
+    cursor: pointer;
+}
+.add-btn:hover{
+    box-shadow: 5px 8px 20px black;
+}
